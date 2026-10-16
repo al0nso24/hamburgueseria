@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4eee4" />
+  <meta name="description" content="Buenas hamburguesas, ingredientes reales y mucho fuego. Descubre el sabor de Barrio Burger." />
+  <title>Barrio Burger — El barrio tiene hambre</title>
+  <link rel="icon" type="image/svg+xml" href="burger-icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topline">Hamburguesas hechas con cariño <span>·</span> y fuego de verdad</div>
+  <header class="wrap nav">
+    <a class="brand" href="#inicio" aria-label="Barrio Burger, inicio"><span class="brand-mark">✳</span> barrio<span style="color:var(--red)">burger</span></a>
+    <nav class="nav-links" id="navLinks"><a href="#carta">La carta</a><a href="#nosotros">Nuestra historia</a><a href="#visitanos">Encuéntranos</a></nav>
+    <a class="nav-cta" href="#carta">Pedir ahora <span>↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  </header>
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="hero-grid">
+        <div class="hero-copy-block reveal"><div class="eyebrow">La hamburguesa de tu barrio</div><h1>El barrio<br>tiene <em>hambre.</em></h1><p class="hero-copy">Pan suave, carne a la parrilla y ese queso que se derrite justo como debe. Sin vueltas. Solo buenas hamburguesas.</p><div class="hero-actions"><a class="button" href="#carta">Mira la carta <span>↓</span></a><a class="text-link" href="#nosotros">¿Quiénes somos?</a></div><div class="hero-note"><span class="stars">★★★★★</span> <span><b>4.9/5</b> — más de 1,200 vecinos felices</span></div></div>
+        <div class="hero-art"><div class="sun"></div><span class="spark one">✳</span><span class="spark two">✦</span><div class="hero-burger"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=85" alt="Hamburguesa doble con queso, lechuga y tomate" /></div><div class="badge">PREPARADO<br>FRESCO<strong>100%</strong>cada día</div></div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><div class="ticker-item">CARNE A LA PARRILLA <i>✳</i> PAN RECIÉN HORNEADO <i>✳</i> CERO COMPLICACIONES <i>✳</i> MUCHO SABOR <i>✳</i> </div><div class="ticker-item">CARNE A LA PARRILLA <i>✳</i> PAN RECIÉN HORNEADO <i>✳</i> CERO COMPLICACIONES <i>✳</i> MUCHO SABOR <i>✳</i> </div></div></div>
+    <section class="menu-section wrap" id="carta"><div class="section-head reveal"><div><div class="eyebrow">Lo bueno está aquí</div><h2>Favoritas del barrio</h2></div><p>Con ingredientes frescos, hechas al momento y con mucho amor. ¿Cuál va a ser la tuya?</p></div>
+      <div class="cards">
+        <article class="food-card reveal"><div class="food-image"><img loading="lazy" src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=850&q=80" alt="La Clásica, hamburguesa con queso cheddar"/><span class="food-tag">La de siempre</span></div><div class="food-info"><div class="food-name-line"><span class="food-name">La Clásica</span><span class="food-price">S/ 24</span></div><p>Carne a la parrilla, cheddar, lechuga fresca, tomate y nuestra salsa de la casa.</p><div class="food-meta"><span>Simple y perfecta</span><span class="heat">●●○</span></div></div></article>
+        <article class="food-card reveal"><div class="food-image"><img loading="lazy" src="https://images.unsplash.com/photo-1561758033-d89a9ad46330?auto=format&fit=crop&w=850&q=80" alt="La Barrio, hamburguesa doble con queso y tocino"/><span class="food-tag">La más pedida</span></div><div class="food-info"><div class="food-name-line"><span class="food-name">La Barrio</span><span class="food-price">S/ 32</span></div><p>Doble smash, doble cheddar, cebolla caramelizada y mayo de ají amarillo.</p><div class="food-meta"><span>Grande en sabor</span><span class="heat">●●●</span></div></div></article>
+        <article class="food-card reveal"><div class="food-image"><img loading="lazy" src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=850&q=80" alt="La Huerta, hamburguesa vegetariana con vegetales"/><span class="food-tag">Sin carne</span></div><div class="food-info"><div class="food-name-line"><span class="food-name">La Huerta</span><span class="food-price">S/ 27</span></div><p>Medallón de garbanzos, palta, queso andino y salsa verde de la casa.</p><div class="food-meta"><span>100% sabrosa</span><span class="heat">●○○</span></div></div></article>
+      </div>
+    </section>
+    <section class="about" id="nosotros"><div class="wrap about-grid"><div class="about-pic reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1555992336-03a23c7b20ee?auto=format&fit=crop&w=1000&q=85" alt="Ambiente cálido de una hamburguesería de barrio" /></div><div class="reveal"><div class="eyebrow">Un poquito de nosotros</div><h2>Buenas burgers.<br><span>Mejor barrio.</span></h2><p class="about-copy">Empezamos con una plancha, una receta de familia y un sueño grande: hacer la hamburguesa que te alegra el día. Hoy seguimos igual, cocinando con ingredientes de verdad y saludando a cada vecino por su nombre.</p><div class="stats"><div class="stat"><strong>2018</strong><small>Desde entonces</small></div><div class="stat"><strong>100%</strong><small>Hecho al momento</small></div><div class="stat"><strong>0</strong><small>Atajos</small></div></div></div></div></section>
+    <section class="visit wrap" id="visitanos"><div class="visit-grid"><div class="reveal"><div class="eyebrow">La mesa está lista</div><h2>Nos vemos<br>en el barrio.</h2><p>Ven con hambre, trae a tus amigos y quédate un rato. Aquí siempre hay sitio para uno más.</p><div class="details"><div class="detail"><b>📍 Estamos en</b>Av. del Sabor 245<br>Miraflores, Lima</div><div class="detail"><b>🕒 Abrimos</b>Mar–Dom · 12:00–22:00<br>Lunes descansamos</div></div><a class="button" href="https://maps.google.com/?q=Miraflores+Lima" target="_blank" rel="noreferrer">Cómo llegar <span>↗</span></a></div><div class="map-card reveal"><div class="map-pin"><span>⌖</span></div><div class="map-label">Barrio Burger · Miraflores</div></div></div></section>
+  </main>
+  <footer><div class="wrap footer-row"><a class="brand" href="#inicio"><span class="brand-mark">✳</span> barrio<span style="color:var(--orange)">burger</span></a><p>© 2026 Barrio Burger. Hecho con hambre y cariño.</p><div class="social"><a href="#">Instagram</a><a href="#">TikTok</a></div></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
