@@ -38,16 +38,6 @@ hamburgueseria/
 
 Es un sitio frontend estático: no requiere servidor de aplicaciones, base de datos, proceso de compilación ni instalación de paquetes.
 
-## Cómo ejecutarlo
-
-Puedes abrir `index.html` directamente en el navegador. Para servirlo localmente, desde la raíz del proyecto ejecuta:
-
-```bash
-python -m http.server 8000
-```
-
-Luego visita [http://localhost:8000](http://localhost:8000).
-
 ## Recursos externos
 
 Las fotografías se cargan desde Unsplash y las tipografías desde Google Fonts. Se necesita conexión a internet para mostrarlas; el resto de la página está compuesto por archivos locales del proyecto.
