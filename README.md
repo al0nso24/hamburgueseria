@@ -1,15 +1,55 @@
-# 🍔 Barrio Burger
+# Barrio Burger
 
-¡Bienvenido a **Barrio Burger**! Esta página presenta una hamburguesería de barrio en Miraflores, Lima, donde las burgers se preparan al momento con ingredientes frescos y mucho cariño.
+Sitio web estático para **Barrio Burger**, una hamburguesería de barrio en Miraflores, Lima. La página presenta la carta, la historia del local y su información de ubicación en una experiencia adaptable a móvil y escritorio.
 
-## ¿Qué encontrarás?
+## Contenido
 
-- **Nuestra carta:** descubre La Clásica, La Barrio y La Huerta, con sus ingredientes y precios.
-- **Nuestra historia:** conoce el espíritu detrás de Barrio Burger y su amor por las buenas hamburguesas.
-- **Visítanos:** consulta la dirección y el horario, y encuentra cómo llegar.
+- [Características](#características)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Tecnologías](#tecnologías)
+- [Cómo ejecutarlo](#cómo-ejecutarlo)
+- [Recursos externos](#recursos-externos)
 
-La página tiene un diseño adaptable para que puedas recorrerla tanto desde el celular como desde la computadora. Es una presentación del local; los pedidos y pagos no se realizan desde el sitio.
+## Características
 
-## Arquitectura del proyecto
+- Landing page con secciones de inicio, carta, historia y ubicación.
+- Menú de navegación móvil con estado accesible.
+- Animaciones de entrada y elementos visuales animados, con respeto a la preferencia de movimiento reducido del sistema.
+- Enlace a Google Maps para consultar cómo llegar.
+- Diseño responsive sin frameworks ni dependencias de instalación.
 
-Es un sitio web estático, sin servidor ni base de datos. El navegador carga `index.html`, que organiza el contenido en secciones; `styles.css` define la apariencia y la adaptación a distintos tamaños de pantalla; y `script.js` controla el menú móvil y las animaciones de entrada. El archivo `burger-icon.svg` se usa como icono de la marca y favicon.
+## Estructura del proyecto
+
+```text
+hamburgueseria/
+├── index.html       # Contenido y estructura de la página
+├── styles.css       # Estilos, diseño responsive y animaciones
+├── script.js        # Menú móvil y animaciones al desplazarse
+├── burger-icon.svg  # Icono de marca y favicon
+└── README.md        # Documentación del proyecto
+```
+
+## Tecnologías
+
+- HTML5
+- CSS3
+- JavaScript nativo
+- SVG
+
+Es un sitio frontend estático: no requiere servidor de aplicaciones, base de datos, proceso de compilación ni instalación de paquetes.
+
+## Cómo ejecutarlo
+
+Puedes abrir `index.html` directamente en el navegador. Para servirlo localmente, desde la raíz del proyecto ejecuta:
+
+```bash
+python -m http.server 8000
+```
+
+Luego visita [http://localhost:8000](http://localhost:8000).
+
+## Recursos externos
+
+Las fotografías se cargan desde Unsplash y las tipografías desde Google Fonts. Se necesita conexión a internet para mostrarlas; el resto de la página está compuesto por archivos locales del proyecto.
+
+> La web es una presentación informativa. No incluye carrito, gestión de pedidos ni pagos en línea.
